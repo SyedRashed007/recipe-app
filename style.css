@@ -153,6 +153,7 @@ header button {
 .button {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+  cursor: pointer;
   display: flex;
   padding: 8px;
 }
