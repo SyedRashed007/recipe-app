@@ -127,19 +127,6 @@ header button {
   overflow: hidden;
 }
 
-.meal-header {
-  position: relative;
-}
-
-.meal-header .random {
-  position: absolute;
-  top: 1rem;
-  background-color: #eaeaea;
-  padding: 0.2rem 0.2rem;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-}
-
 .meal-header img {
   height: 250px;
   width: 100%;
@@ -155,6 +142,19 @@ header button {
 
 .meal-body h4 {
   margin: 0;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  display: flex;
+  padding: 8px;
 }
 
 .meal-body .fav-btn {
@@ -203,7 +203,7 @@ header button {
 
 .popup .close-popup {
   position: absolute;
-  top: 12px;
+  margin-top: 5px;
   right: 10px;
   cursor: pointer;
   border: none;

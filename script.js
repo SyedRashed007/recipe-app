@@ -25,12 +25,6 @@ function addMeal(mealData, random = false) {
 
     meal.innerHTML = `
         <div class="meal-header">
-            ${
-                random
-                    ? `
-            <span class="random"> Random Recipe </span>`
-                    : ""
-            }
             <img
                 src="${mealData.strMealThumb}"
                 alt="${mealData.strMeal}"
@@ -201,3 +195,7 @@ searchBtn.addEventListener("click" , async () => {
 popupCloseBtn.addEventListener("click", () => {
     mealPopup.classList.add("hidden");
 })
+
+function refreshPage(){
+    window.location.reload();
+} 
