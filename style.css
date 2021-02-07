@@ -153,9 +153,10 @@ header button {
 .button {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+  border: inset;
   cursor: pointer;
   display: flex;
-  padding: 8px;
+  padding: 4px;
 }
 
 .meal-body .fav-btn {
